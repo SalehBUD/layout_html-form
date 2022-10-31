@@ -1,8 +1,12 @@
 /* styles go here */
-.input {
-  margin-bottom: 10px;
+.field {
+  display: block;
 }
 
-fieldset {
+.fieldset:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 10px;
 }
